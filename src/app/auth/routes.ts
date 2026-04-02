@@ -7,5 +7,9 @@ export const authRouter: Router = express.Router();
 
 authRouter.post(
   "/sign-up",
-  authenticationController.handleSignup.bind(AuthenticationController),
+  authenticationController.handleSignup.bind(authenticationController),
+);
+authRouter.post(
+  "/sign-in",
+  authenticationController.handleSignin.bind(authenticationController),
 );

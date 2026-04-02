@@ -13,7 +13,6 @@ export function createApplication(): Express {
       message: "welcome to chaicode auth service",
     });
   });
-
   app.use("/auth", authRouter);
 
   return app;
