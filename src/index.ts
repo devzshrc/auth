@@ -14,4 +14,5 @@ async function main() {
     throw error;
   }
 }
+// "/var/lib/postgres/data" => where postgres store data officially
 main();
