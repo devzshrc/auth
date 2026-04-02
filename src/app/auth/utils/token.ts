@@ -1,5 +1,5 @@
 import JWT from "jsonwebtoken";
-interface UserTokenPayload {
+export interface UserTokenPayload {
   id: string;
 }
 const JWT_SECRET = "bshgjbvjkghk";
